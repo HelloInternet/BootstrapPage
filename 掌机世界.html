@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>掌机世界</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#header">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">掌机世界</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="header">
+                    <ul class="nav navbar-nav">
+                        <li class="active">
+                            <a href="#">综述
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">简述</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">品牌
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li>
+                                    <a href="#tab-psp">PSP</a>
+                                </li>
+                                <li>
+                                    <a href="#tab-gameboy">GAME BOY</a>
+                                </li>
+                                <li>
+                                    <a href="#tab-3ds">3DS</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" data-toggle='modal' data-target='#about'>关于</a>
+                        </li>
+                    </ul>
+                    <form class="navbar-form navbar-right myform" role="search">
+                            <input type="text" class="form-control">
+                        <button type="submit" class="btn btn-default">搜索</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+
+            <ol class="carousel-indicators">
+                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="image/psp_background.jpg" alt="psp展示">
+                    <div class="carousel-caption">
+                        <h1>PSP</h1>
+                        <p>PSP是PlayStation Portable（プレイステーションポータブル）的简称，是日本SONY公司开发的多功能掌机系列，具有游戏、音乐、视频、上网等多项娱乐功能。</p>
+                        <p>
+                            <a href="https://zh.wikipedia.org/wiki/PlayStation_Portable" class="btn btn-lg btn-primary" target="_blank">介绍</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="image/gameboy_background.jpg" alt="GAME BOY展示">
+                    <div class="carousel-caption">
+                        <h1>GAME BOY</h1>
+                        <p>gameboy在1989年4月6日问世[1] ，当时四色黑白屏幕，CPU为8位元，游戏卡最大容量也不过32Mb。现在GB系列游戏机总销售量已经超过两亿台，是世界上最畅销的电子游戏机。</p>
+                        <p>
+                            <a href="https://zh.wikipedia.org/wiki/Game_Boy" class="btn btn-lg btn-primary" target="_blank">介绍</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="image/3ds_background.jpg" alt="3DS展示">
+                    <div class="carousel-caption">
+                        <h1>3DS</h1>
+                        <p>任天堂3DS（ 日文：ニンテンドー3DS），是任天堂于2011年推出的便携式游戏机，是任天堂DS的后续机种。最大特点是利用了视差障壁技术，让玩家不需配戴特殊眼镜即可感受到裸眼3D图像。该平台向下兼容任天堂DS软件。</p>
+                        <p>
+                            <a href="https://zh.wikipedia.org/wiki/%E4%BB%BB%E5%A4%A9%E5%A0%823DS" class="btn btn-lg btn-primary" target="_blank">介绍</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">上一页</span>
+            </a>
+            <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">下一页</span>
+            </a>
+        </div>
+
+        <div class="container" id="logo-container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="image/psp_logo.jpg" alt="psp_logo" class="img-circle psp-logo">
+                    <h2>PSP</h2>
+                    <p>PSP是日本SONY公司开发的多功能掌机系列，具有游戏、音乐、视频、上网等多项娱乐功能。</p>
+                    <p>
+                        <a href="https://item.taobao.com/item.htm?spm=a230r.1.14.4.KTQI3S&id=538227882278&ns=1&abbucket=5#detail" class="btn btn-default" role="button" target="_blank">购买</a>
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="image/3ds_logo.jpg" alt="3ds_logo" class="img-circle">
+                    <h2>3DS</h2>
+                    <p>3DS是任天堂于2011年推出的便携式游戏机，强调“随身携带、相互交流、每日新体验”的设计理念。</p>
+                    <p>
+                        <a href="https://item.jd.hk/1956126174.html" class="btn btn-default" role="button" target="_blank">购买</a>
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="image/gameboy_logo.jpg" alt="gameboy_logo" class="img-circle">
+                    <h2>GMAE BOY</h2>
+                    <p>GB系列游戏机全世界总销售量已经超过两亿台，是世界上最畅销的电子游戏机。</p>
+                    <p>
+                        <a href="https://item.taobao.com/item.htm?spm=a230r.1.14.1.7mHlJx&id=527719789405&ns=1&abbucket=5#detail" class="btn btn-default" role="button" target="_blank">购买</a>
+                    </p>
+                </div>
+            </div>
+            <hr/>
+
+            <ul class="nav nav-tabs" role="tablist" id="tab-list">
+                <li role="presentation" class="active">
+                    <a href="#tab-psp" aria-controls="home" role="tab" data-toggle="tab">PSP</a>
+                </li>
+                <li role="presentation">
+                    <a href="#tab-gameboy" aria-controls="profile" role="tab" data-toggle="tab">GAME BOY</a>
+                </li>
+                <li role="presentation">
+                    <a href="#tab-3ds" aria-controls="messages" role="tab" data-toggle="tab">3DS</a>
+                </li>
+            </ul>
+
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="tab-psp">
+                  <div class="row feature">
+                    <div class="col-md-7">
+                        <h2 class="feature-heading">PSP<span class='text-muted'>掌游神器</span>
+                        </h2>
+                        <p class="lead">PlayStation Portable是索尼电脑娱乐于2004年12月12日发售的掌上型游戏机。2007年9月，轻量、薄型化的PSP-2000系列发售。2008年10月，提升液晶屏幕鲜艳及对比度并自带麦克风的PSP-3000系列发售。2009年，PSPgo发售。</p>
+                    </div>
+                    <div class="col-md-5"><img src="image/psp_show.jpg" alt="psp_show" class="feature-image img-responsive "></div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="tab-gameboy">
+                    <div class="row feature">
+                    <div class="col-md-5"><img src="image/gameboy_show.jpg" alt="gameboy_show" class="img-responsive"></div>
+                    <div class="col-md-7">
+                        <h2 class="feature-heading">GAME BOY<span class='text-muted'>掌机霸主</span>
+                        </h2>
+                        <p class="lead">GB系列有GAME BOY Pocket（袖珍GB）、GAME BOY Light （夜光GB）GAME BOY Color（彩色GB）、Game Boy Advance（32位元彩色GB）、Game Boy Advance SP（32位元彩色充电前光GB）、Game Boy Micro（32位元袖珍彩色背光GB）。这些各具特色的GB系列游戏机总销售量已经超过两亿台，是世界上最畅销的电子游戏机。</p>
+                    </div>
+                  </div>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="tab-3ds">
+                  <div class="row feature">
+                    <div class="col-md-7">
+                        <h2 class="feature-heading">3DS<span class='text-muted'>掌游名贵</span>
+                        </h2>
+                        <p class="lead">任天堂3DS（ 日文：ニンテンドー3DS），是任天堂于2011年推出的便携式游戏机，是任天堂DS的后续机种。最大特点是利用了视差障壁技术，让玩家不需配戴特殊眼镜即可感受到裸眼3D图像。该平台向下兼容任天堂DS软件。2012年9月发行繁体中文版3DS。2012年11月发行简体中文版3DS。</p>
+                    </div>
+                    <div class="col-md-5"><img src="image/3ds_show.jpg" alt="3ds_show" class="img-responsive"></div>
+                  </div>
+                </div>
+            </div>
+            <hr />
+            <footer>
+              <p class="pull-right"><a href="#top">回到顶部</a></p>
+              <p>&copy;2016 YoloMonkey</p>
+            </footer>
+        </div>
+        <div class="modal fade" id='about'>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">关于</h4>
+      </div>
+      <div class="modal-body">
+        <p>这个页面是我自学了bootstrap框架后制作的网页，谢谢观看！</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('#header .dropdown-menu a').click(function(){
+      var href = $(this).attr('href');
+      $("#tab-list a[href='" + href +"']").tab('show');
+    });
+  });
+</script>
+</body>
+</html>
